@@ -1,10 +1,95 @@
-/* body {
+/* Global Settings */
+body {
     display: flex;
     flex-direction: column;
-} */
+}
 
-.second-section-card {
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header Section */
+.header-container {
+    background-color: #172937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-links a,
+.hero-secondary-text {
+    font-size: 28px;
+    color: #E5E7EB;
+}
+
+.hero-button button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 1000;
+    border-radius: 12px;
+    padding: 10px;
+    width: 100px;
+}
+
+.hero-img img {
+    height: auto;
+    width: 400px;
+}
+
+
+/* First Section */
+.first-section-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+/* placeholder design for cards */
+.first-section-card {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
+}
+
+
+/* Second Section */
+.second-section {
+    background-color: #E5E7EB;
+}
+
+.second-section-quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.second-section-quote-cite {
+    font-weight: bold;
+    color: #1F2937;
+}
+
+
+/* Third Section */
+.third-section {
+    background-color: #3882F6;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #172937;
+    color: white;
 }
