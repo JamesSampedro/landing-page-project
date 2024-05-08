@@ -2,6 +2,8 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 ul {
@@ -12,15 +14,22 @@ a {
     text-decoration: none;
 }
 
-
 /* Header Section */
-.header-container {
+.header {
+    flex: 1;
+    display: flex;
     background-color: #172937;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+/* Hero Section */
+.hero-container {
+    flex: 1;
+    background-color: #172937;
 }
 
 .hero-main-text {
@@ -51,6 +60,10 @@ a {
 
 
 /* First Section */
+.first-section {
+    flex: 1;
+}
+
 .first-section-header {
     font-size: 36px;
     font-weight: 800;
@@ -67,6 +80,7 @@ a {
 
 /* Second Section */
 .second-section {
+    flex: 1;
     background-color: #E5E7EB;
 }
 
@@ -84,12 +98,14 @@ a {
 
 /* Third Section */
 .third-section {
+    flex: 1;
     background-color: #3882F6;
 }
 
 
 /* Footer */
 .footer {
+    margin-top: auto;
     background-color: #172937;
     color: white;
 }
