@@ -154,7 +154,10 @@ a {
 /* Second Section */
 .second-section {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    padding: 10%;
 }
 
 .second-section-quote-text {
@@ -164,8 +167,10 @@ a {
 }
 
 .second-section-quote-cite {
+    font-size: 28px;
     font-weight: bold;
-    color: #1F2937;
+    color: #202020;
+    text-align: right;
 }
 
 
