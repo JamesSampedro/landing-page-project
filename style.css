@@ -55,6 +55,7 @@ a {
 .hero-container {
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     margin: 10% 0;
 }
 
