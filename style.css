@@ -81,6 +81,11 @@ a {
     flex-wrap: wrap;
 }
 
+.header-logo,
+.header-links {
+    margin-top: 24px;
+}
+
 .header-links a,
 .hero-secondary-text {
     font-size: 18px;
@@ -106,7 +111,7 @@ a {
 
 .hero-img img {
     height: auto;
-    width: 500px;
+    max-width: 500px;
 }
 
 
@@ -228,7 +233,12 @@ a {
 
 /* Footer */
 .footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: auto;
+    padding: 36px;
     background-color: #172937;
     color: white;
 }
